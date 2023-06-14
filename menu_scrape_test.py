@@ -7,9 +7,6 @@ from html.parser import HTMLParser
 from openpyxl import Workbook
 import xlsxwriter
 
-#menu_df = pd.DataFrame("", index=np.arange(1,1001), columns=["img_url", "lang", "trans"])
-#df = pd.DataFrame("", index=np.arange(1,1001), columns=["name"])
-#print(df)
 wb = Workbook()
 ws = wb.active
 ws['A1'] = "image_url"
