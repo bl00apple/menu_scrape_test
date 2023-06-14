@@ -1,1 +1,1 @@
-# menu_scrape_test
+Practicing how to scrape url address from a website using Python.
